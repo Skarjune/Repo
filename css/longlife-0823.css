@@ -9,6 +9,7 @@ body {
 	font-family: 'Piazzolla', serif;
 	font-size: 20px;
 	line-height:1.3em;
+	background-color: white;
 }
 
 img,
@@ -73,12 +74,12 @@ p {
 	margin:1em .2em .15em .15em;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */		
+/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 750px) {
 	.container {
 		max-width: 650px;
 	}
-	
+
   .row {
     flex-direction: column;
   }
@@ -95,38 +96,38 @@ p {
 	.lfl-small {
 		display: block;
 	}
-	
+
 	h1, h2, h3, h4, h5, p {
 		margin-top: .25em;
 		margin-bottom: .25em;
 		padding: 0;
 		line-height:1.1em;
 	}
-	
+
 	h1 {
 		font-size: 1.5em;
 		margin-bottom: .5em;
 	}
-	
+
 	h2 {
 		font-size:1.3em;
 	}
-	
+
 	h3 {
 		font-size:1.2em;
 	}
-	
+
 	h4, h5 {
 		font-size:1.1em;
 	}
-	
+
 	p {
 		margin-top: .25em;
 		margin-bottom: .25em;
 		line-height: 1.2em;
-	}		
-}	
-	
+	}
+}
+
 /* select all `class="row"` elements and make them flexboxes */
 	.row {
 	  display: flex;
@@ -135,7 +136,7 @@ p {
 		justify-content: center;
 		background-color: #fff;
 	}
-	
+
 	.col {
 	  /* TODO: set the `flex` property to `1` */
 	  flex-basis: auto;
@@ -143,7 +144,7 @@ p {
 	  flex-shrink: 0;
 	  flex-wrap: wrap;
 	}
-						
+
 .container {
 	max-width: 1200px;
 	min-width: 512px;
