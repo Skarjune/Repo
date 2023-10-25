@@ -231,7 +231,6 @@ footer {
 	float:left;
 }
 
-h3.footer-right {
-	text-align: right;
+.footer-right {
 	float:right;
 }
